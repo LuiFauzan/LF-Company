@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LF Company - Future Technology Designer</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- End Style css -->
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#"><img src="img/Logo.png" class="logo" /></a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="sa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Future Technology Designer</p>
+          <h1>Hi, we are <span>LF</span><br />Company from future</h1>
+        </div>
+      </div>
+    </div>
+    <!-- End header -->
+    <!-- About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/Logo.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About</h1>
+            <p>
+              Selamat datang di halaman "Tentang Kami" LF Company! Kami adalah
+              sebuah perusahaan inovatif yang fokus pada teknologi masa depan.
+              Dengan komitmen yang kuat terhadap penelitian dan pengembangan,
+              kami memimpin revolusi teknologi untuk menciptakan dunia yang
+              lebih maju. Dengan tim ahli yang terdiri dari para insinyur,
+              ilmuwan, dan pemikir kreatif, kami berupaya untuk menghadirkan
+              solusi inovatif dan transformasional dalam berbagai bidang,
+              seperti kecerdasan buatan, internet of things, dan blockchain.
+              Dengan visi kami yang progresif, kami bertujuan untuk menciptakan
+              masa depan yang cerah, di mana teknologi menjadi kekuatan
+              pendorong perubahan positif dalam masyarakat. Bergabunglah dengan
+              kami dalam perjalanan menuju masa depan yang luar biasa ini!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Designing App interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />Building ios/android apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Curent</span><br />Lorem ipsum dolor sit amet.
+                </li>
+                <li>
+                  <span>2018 - 2021</span><br />Lorem ipsum dolor sit amet.
+                </li>
+                <li>
+                  <span>2015 - 2018</span><br />Lorem ipsum dolor sit amet.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2018</span><br />Designing Web Training</li>
+                <li>
+                  <span>2016</span><br />Designing App interfaces Training
+                </li>
+                <li>
+                  <span>2014</span><br />Building ios/android apps Training
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+          <div>
+            <i data-feather="code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              exercitationem provident voluptate ratione explicabo, quibusdam
+              voluptatem eveniet? Expedita atque quam quae facere? Asperiores,
+              voluptatibus aliquam. Reiciendis facere quo ipsam asperiores
+              inventore ex explicabo architecto perspiciatis tempora quisquam
+              enim numquam expedita illum quibusdam recusandae repudiandae, est
+              odio doloremque tempore nam hic.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i data-feather="crop"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est
+              sequi reprehenderit beatae nihil consequatur quam iure voluptate
+              cupiditate alias, et quas repellendus aspernatur eligendi ullam
+              animi blanditiis cum? Iure iste facilis tenetur repellat totam
+              excepturi ut, alias nostrum. Sunt vero ab iusto ea, animi quisquam
+              blanditiis autem cumque omnis.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i data-feather="package"></i>
+            <h2>Arcitecture</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est
+              sequi reprehenderit beatae nihil consequatur quam iure voluptate
+              cupiditate alias, et quas repellendus aspernatur eligendi ullam
+              animi blanditiis cum? Iure iste facilis tenetur repellat totam
+              excepturi ut, alias nostrum. Sunt vero ab iusto ea, animi quisquam
+              blanditiis autem cumque omnis.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i data-feather="alert-triangle"></i>
+            <h2>Rocket designer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio est
+              sequi reprehenderit beatae nihil consequatur quam iure voluptate
+              cupiditate alias, et quas repellendus aspernatur eligendi ullam
+              animi blanditiis cum? Iure iste facilis tenetur repellat totam
+              excepturi ut, alias nostrum. Sunt vero ab iusto ea, animi quisquam
+              blanditiis autem cumque omnis.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Portofolio -->
+    <div id="portofolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+            />
+            <div class="layer">
+              <h3>Social media apps</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                magni ut iure, quisquam aut totam doloremque recusandae eaque
+                molestiae quis exercitationem vitae obcaecati consectetur
+                adipisci.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://images.unsplash.com/photo-1600783245722-ff4846c17501?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+            />
+            <div class="layer">
+              <h3>Music apps</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                magni ut iure, quisquam aut totam doloremque recusandae eaque
+                molestiae quis exercitationem vitae obcaecati consectetur
+                adipisci.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            />
+            <div class="layer">
+              <h3>Online shoping apps</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                magni ut iure, quisquam aut totam doloremque recusandae eaque
+                molestiae quis exercitationem vitae obcaecati consectetur
+                adipisci.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+      </div>
+    </div>
+    <!-- End Portofolio -->
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>luifauzan03@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone"></i>089595004459</p>
+            <div class="social-icons">
+              <a href="#"><i data-feather="facebook"></i></a>
+              <a href="#"><i data-feather="twitter"></i></a>
+              <a href="#"><i data-feather="instagram"></i></a>
+              <a href="#"><i data-feather="linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Massage"
+                rows="6"
+                placeholder="Your Massage"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Gioz. Made with <i class="fa-solid fa-heart"></i>by LF
+          Company
+        </p>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+    <script src="sidemenu.js"></script>
+    <!-- End JavaScript -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
